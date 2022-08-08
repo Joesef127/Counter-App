@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150vh;
+  background: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: calc(100 -20);
+}
+
+.container {
+  padding: 4rem 0;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-inline: 4rem;
+}
+
+.people {
+  font-size: 3rem;
+}
+
+.count {
+  font-size: 6rem;
+}
+
+.buttons {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.button {
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+#incrementButton {
+  background-color: rgb(13, 158, 61);
+  border: 5px solid rgb(13, 158, 61);
+}
+
+#incrementButton:hover {
+  background-color: rgb(4, 110, 39);
+}
+
+#incrementButton:focus {
+  border: 5px solid rgb(70, 36, 36);
+}
+
+#decrementButton {
+  background-color: rgb(153, 37, 37);
+  border: 5px solid rgb(153, 37, 37);
+}
+
+#decrementButton:hover {
+  background-color: rgb(112, 22, 22);
+}
+
+#decrementButton:focus {
+  border: 5px solid black;
+}
+
+#reset {
+  background-color: black;
+  border: 5px solid black;
+}
+
+#reset:hover {
+  background-color: rgb(22, 22, 22);
+}
+
+#reset:focus {
+  border: 5px solid rgb(5, 109, 39);
+}
+
+#save {
+  background-color: chocolate;
+  border: 5px solid chocolate;
+}
+
+#save:hover {
+  background-color: rgb(160, 72, 9);
+}
+
+#save:focus {
+  border: 5px solid brown;
+}
+
+#saveEl {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .buttons {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .button {
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  }
+}

@@ -24,7 +24,7 @@ What this is:
 
   Counter App is fully responsive simple counting app, <br />built using HTML, CSS, and JavaScript.
 
-  <a href="https://counterapp.netlify.app"><strong>➥ Live Demo</strong></a>
+  <a href="https://itemcount.netlify.app"><strong>➥ Live Demo</strong></a>
 
 <br />
 

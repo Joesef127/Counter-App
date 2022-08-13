@@ -20,9 +20,9 @@
 
 What this is:
 
-  <h2 align="center">Counter App</h2>
+  <h2>Counter App</h2>
 
-  Counter App is fully responsive simple counting app, <br />built using HTML, CSS, and JavaScript.
+  Counter App is a simple counting app, it counts and record the value counted. 
 
   <a href="https://itemcount.netlify.app"><strong>➥ Live Demo</strong></a>
 
